@@ -1,0 +1,21 @@
+# Root gitignore
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
+.env
+client/.env
+server/.env
+
+# Build outputs
+client/dist/
+
+# Logs
+*.log
+logs/
+
+# IDE / System
+.DS_Store
+.vscode/
+.idea/
